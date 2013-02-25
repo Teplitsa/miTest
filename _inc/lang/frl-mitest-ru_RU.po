@@ -1,0 +1,765 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FRL Mitest\n"
+"POT-Creation-Date: 2013-02-20 09:51+0400\n"
+"PO-Revision-Date: 2013-02-20 09:57+0400\n"
+"Last-Translator: Anna <nordworldofann@gmail.com>\n"
+"Language-Team: foralien\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /Volumes/Macintosh HD/Users/macmini/Dropbox/Webdev/vhosts/"
+"testdrive.local/wp-content/plugins/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: frl-mitest\n"
+
+#: frl-mitest/frl-mitest.php:38
+msgid "Interactive test in accordance with ONWAM methodology"
+msgstr "Интерактивный тест по методологии ONWAM"
+
+#: frl-mitest/frl-mitest.php:39
+msgid "Anna Ladoshkina"
+msgstr "Анна Ладошкина"
+
+#: frl-mitest/_inc/core/admin.php:76
+msgid "Shortcodes"
+msgstr "Специальные коды"
+
+#: frl-mitest/_inc/core/admin.php:77 frl-mitest/_inc/templates/module.php:148
+msgid "Cancel"
+msgstr "Отмена"
+
+#: frl-mitest/_inc/core/admin.php:78
+msgid "Insert"
+msgstr "Вставить"
+
+#: frl-mitest/_inc/core/admin.php:79
+msgid "Content is not avaliable"
+msgstr "Контент недоступен"
+
+#: frl-mitest/_inc/core/admin.php:80
+msgid "Saving is not possible"
+msgstr "Сохранение невозможно!"
+
+#: frl-mitest/_inc/core/admin.php:122
+msgid "Enter question text"
+msgstr "Введите текст вопроса"
+
+#: frl-mitest/_inc/core/admin.php:181 frl-mitest/_inc/core/admin.php:196
+msgid "Settings"
+msgstr "Настройки"
+
+#: frl-mitest/_inc/core/admin.php:182
+msgid "Visit plugin's settings page"
+msgstr "Перейти на страницу настроек плагина"
+
+#: frl-mitest/_inc/core/admin.php:195
+msgid "MItest Settings"
+msgstr "MItest настройки"
+
+#: frl-mitest/_inc/core/admin.php:203
+msgid "MItest submissions"
+msgstr "Завершенные тесты"
+
+#: frl-mitest/_inc/core/admin.php:204
+msgid "Submissions"
+msgstr "Тесты"
+
+#: frl-mitest/_inc/core/admin.php:242 frl-mitest/_inc/core/admin.php:423
+msgid "Sorry, but you do not have permissions to access this page."
+msgstr "К сожалению, у вас не достаточно прав для просмотра данной страницы"
+
+#: frl-mitest/_inc/core/admin.php:276
+msgid "\"From\" email"
+msgstr "\"От\" email"
+
+#: frl-mitest/_inc/core/admin.php:278
+msgid "Email to be used in \"from\" field in messages sent by plugin"
+msgstr ""
+"Email для использования в поле \"от\" для сообщений, отправляемых плагином"
+
+#: frl-mitest/_inc/core/admin.php:284
+msgid "Email for notifications"
+msgstr "Email для извещений"
+
+#: frl-mitest/_inc/core/admin.php:286
+msgid "Email to be notified about test's submissions"
+msgstr "Email, на который будут отправляться уведомления о прохождении теста"
+
+#: frl-mitest/_inc/core/admin.php:292
+msgid "Email to participant"
+msgstr "Письмо участнику"
+
+#: frl-mitest/_inc/core/admin.php:294
+msgid "Text of email to user with test's results. Use [link] placeholder."
+msgstr ""
+"Текст сообщения пользователю с результатами тестирования. Использует [link] "
+"для вставки ссылки на профиль."
+
+#: frl-mitest/_inc/core/admin.php:300
+msgid "Credentials"
+msgstr "Информация о разработчиках"
+
+#: frl-mitest/_inc/core/admin.php:302
+msgid "Text to be displayed as credentials information"
+msgstr "Текст представляющий инфомрацию о разработчиках и правах"
+
+#: frl-mitest/_inc/core/admin.php:308
+msgid "Common Rules"
+msgstr "Общие правила"
+
+#: frl-mitest/_inc/core/admin.php:310
+msgid "Text of common for all modules testing rules to be displayed on start"
+msgstr "Текст правил тестирования, общий для всех модулей"
+
+#: frl-mitest/_inc/core/admin.php:315
+msgid "Testing page header"
+msgstr "Заставка страницы теста"
+
+#: frl-mitest/_inc/core/admin.php:330
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+#: frl-mitest/_inc/core/admin.php:332
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: frl-mitest/_inc/core/admin.php:342
+msgid "Save options"
+msgstr "Сохранить настройки"
+
+#: frl-mitest/_inc/core/admin.php:361
+msgid "General parameters"
+msgstr "Основные параметры"
+
+#: frl-mitest/_inc/core/admin.php:366
+msgid "Help"
+msgstr "Справка"
+
+#: frl-mitest/_inc/core/admin.php:407
+msgid "View in separate window"
+msgstr "Просмотр в отдельном окне"
+
+#: frl-mitest/_inc/core/core.php:83
+msgid ""
+"We offer you a series of test to benchmark your website against best "
+"practices and approaches for site development"
+msgstr ""
+"Вы хотите улучшить свой сайт - не столько потому, что лучшее враг хорошего, "
+"сколько потому, что вас что-то в нем не устраивает. Куда более серьезная "
+"проблема может заключаться в том, что в нем что-то не устраивает ваших "
+"посетителей. Современные веб-сайты - это многоуровневые структуры со "
+"множеством аспектов, требующих внимания и проработки, и все они оказывают "
+"влияние на посетителя. Как разобраться в том, что именно на сайте необходимо "
+"изменить и каким образом? Мы предлагаем вам серию тестов, которые помогут "
+"оценить, насколько успешно на сайте вашей организации реализованы ключевые "
+"компонеты. В результате вы познакомитесь с проверенными практикой методами и "
+"подходами к  построению сайтов и распространенными ошибками, которые могут "
+"встретится и на вашем сайте."
+
+#: frl-mitest/_inc/core/core.php:86
+msgid "Tests for non-profit website"
+msgstr "Тестирование сайта некоммерческой организации"
+
+#: frl-mitest/_inc/core/core.php:217
+msgid "Questions"
+msgstr "Вопросы"
+
+#: frl-mitest/_inc/core/core.php:218
+msgid "Question"
+msgstr "Вопрос"
+
+#: frl-mitest/_inc/core/core.php:219
+msgid "Add new question"
+msgstr "Добавить вопрос"
+
+#: frl-mitest/_inc/core/core.php:220
+msgid "Add question"
+msgstr "Добавить вопрос"
+
+#: frl-mitest/_inc/core/core.php:221
+msgid "Edit question"
+msgstr "Редактировать вопрос"
+
+#: frl-mitest/_inc/core/core.php:222
+msgid "New question"
+msgstr "Новый вопрос"
+
+#: frl-mitest/_inc/core/core.php:223
+msgid "View question"
+msgstr "Просмотреть вопрос"
+
+#: frl-mitest/_inc/core/core.php:224
+msgid "Search questions"
+msgstr "Поиск вопросов"
+
+#: frl-mitest/_inc/core/core.php:225
+msgid "No questions found"
+msgstr "Вопросы не найдены"
+
+#: frl-mitest/_inc/core/core.php:226
+msgid "No questions found in Trash"
+msgstr "Вопросы не найдены в Корзине"
+
+#: frl-mitest/_inc/core/core.php:296 frl-mitest/_inc/core/core.php:299
+msgid "Question updated"
+msgstr "Вопрос обновлен"
+
+#: frl-mitest/_inc/core/core.php:297
+msgid "Custom field updated"
+msgstr "Пользовательские данные обновлены"
+
+#: frl-mitest/_inc/core/core.php:298
+msgid "Custom field deleted"
+msgstr "Пользовательские данные обновлены"
+
+#: frl-mitest/_inc/core/core.php:300
+msgid "Question restored to revision"
+msgstr "Вопрос востановлен в редакции"
+
+#: frl-mitest/_inc/core/core.php:301
+msgid "Question published"
+msgstr "Вопрос опубликован"
+
+#: frl-mitest/_inc/core/core.php:302
+msgid "Question saved"
+msgstr "Вопрос сохранен"
+
+#: frl-mitest/_inc/core/core.php:303
+msgid "Question submitted"
+msgstr "Вопрос отправлен"
+
+#: frl-mitest/_inc/core/core.php:304
+msgid "Question scheduled"
+msgstr "Вопрос запланирован"
+
+#: frl-mitest/_inc/core/core.php:305
+msgid "Question draft updated"
+msgstr "Черновик обновлен"
+
+#: frl-mitest/_inc/core/core.php:359 frl-mitest/_inc/core/core.php:1016
+msgid "Sorting"
+msgstr "Сортировка"
+
+#: frl-mitest/_inc/core/core.php:410
+msgid "Modules"
+msgstr "Модули"
+
+#: frl-mitest/_inc/core/core.php:411 frl-mitest/_inc/core/list-table.php:145
+#: frl-mitest/_inc/templates/profile.php:132
+msgid "Module"
+msgstr "Модуль"
+
+#: frl-mitest/_inc/core/core.php:412
+msgid "Search modules"
+msgstr "Поиск модулей"
+
+#: frl-mitest/_inc/core/core.php:413
+msgid "Frequent modules"
+msgstr "Часто используемые"
+
+#: frl-mitest/_inc/core/core.php:414
+msgid "All modules"
+msgstr "Все модули"
+
+#: frl-mitest/_inc/core/core.php:415
+msgid "Edit module"
+msgstr "Редактировать модуль"
+
+#: frl-mitest/_inc/core/core.php:416
+msgid "Update module"
+msgstr "Обновить модуль"
+
+#: frl-mitest/_inc/core/core.php:417
+msgid "Add new module"
+msgstr "Добавить новый"
+
+#: frl-mitest/_inc/core/core.php:418
+msgid "New module name"
+msgstr "Наименование модуля"
+
+#: frl-mitest/_inc/core/core.php:419
+msgid "Separate modules with commas"
+msgstr "Разделять запятыми"
+
+#: frl-mitest/_inc/core/core.php:420
+msgid "Add or remove modules"
+msgstr "Добавить или удалить модули"
+
+#: frl-mitest/_inc/core/core.php:421
+msgid "Choose from the most used modules"
+msgstr "Выбрать из часто используемых"
+
+#: frl-mitest/_inc/core/core.php:538
+msgid "Preview"
+msgstr "Просмотр"
+
+#: frl-mitest/_inc/core/core.php:812
+msgid "Website test results"
+msgstr "Результаты тестирования сайта НКО"
+
+#: frl-mitest/_inc/core/core.php:813
+msgid "Test's results"
+msgstr "Результаты тестирования"
+
+#: frl-mitest/_inc/core/core.php:841
+msgid "Interactive test submission"
+msgstr "Уведомление:  Новоt прохождение теста (MITEST)"
+
+#: frl-mitest/_inc/core/core.php:844
+msgid "Test profile"
+msgstr "Профиль теста"
+
+#: frl-mitest/_inc/core/core.php:848
+msgid "The new interactive test submission has been recorded today."
+msgstr "Зарегистрировано новое прохождение интерактивного теста  на сайте. "
+
+#: frl-mitest/_inc/core/core.php:849
+#, php-format
+msgid "ID of record: %d."
+msgstr "ID записи: %d."
+
+#: frl-mitest/_inc/core/core.php:850
+#, php-format
+msgid "Link to profile: %s."
+msgstr "Ссылка на профиль: %s."
+
+#: frl-mitest/_inc/core/core.php:900 frl-mitest/_inc/core/core.php:1179
+msgid "Not set"
+msgstr "Не установлено"
+
+#: frl-mitest/_inc/core/core.php:981
+msgid "Additional Data"
+msgstr "Дополнительные данные"
+
+#: frl-mitest/_inc/core/core.php:1007
+msgid "Type of question"
+msgstr "Тип вопроса"
+
+#: frl-mitest/_inc/core/core.php:1009
+msgid "Select type"
+msgstr "Выберите тип вопроса"
+
+#: frl-mitest/_inc/core/core.php:1010
+msgid "Multi-choice"
+msgstr "Мультивариантный"
+
+#: frl-mitest/_inc/core/core.php:1011
+msgid "One variant"
+msgstr "Единственный вариант"
+
+#: frl-mitest/_inc/core/core.php:1019
+msgid "The index number of question inside the module"
+msgstr "Числовой индекс для сортировки внутри модуля"
+
+#: frl-mitest/_inc/core/core.php:1025
+msgid "Explanation"
+msgstr "Комментарий"
+
+#: frl-mitest/_inc/core/core.php:1031
+msgid "The text of explanation"
+msgstr "Текст комментария к вопросу"
+
+#: frl-mitest/_inc/core/core.php:1037
+msgid "Links"
+msgstr "Ссылки"
+
+#: frl-mitest/_inc/core/core.php:1043
+msgid "The list of related links"
+msgstr "Список ссылок по теме"
+
+#: frl-mitest/_inc/core/core.php:1108
+msgid "Select options - everything that suits"
+msgstr "Выберите подходящие (можно несколько) варианты ответа"
+
+#: frl-mitest/_inc/core/core.php:1112
+msgid "Select only one option that suits"
+msgstr "Выберите только один подходящий вариант ответа"
+
+#: frl-mitest/_inc/core/core.php:1259 frl-mitest/_inc/core/core.php:1298
+msgid "Rules"
+msgstr "Правила"
+
+#: frl-mitest/_inc/core/core.php:1262 frl-mitest/_inc/core/core.php:1301
+msgid "Some aditional information to display before test"
+msgstr "Информация, показываемая перед началом тестирования. "
+
+#: frl-mitest/_inc/core/core.php:1270
+msgid "Scale of results "
+msgstr "Шкала результатов"
+
+#: frl-mitest/_inc/core/core.php:1273 frl-mitest/_inc/core/core.php:1313
+msgid "The intervals of scale with description"
+msgstr "Интервалы шкалы с описаниями"
+
+#: frl-mitest/_inc/core/core.php:1310
+msgid "Scale of results"
+msgstr "Шкала результатов"
+
+#: frl-mitest/_inc/core/functions.php:56
+msgid "Interactive test for non-profits websites"
+msgstr "Интерактивный тест сайта некоммерческой организации"
+
+#: frl-mitest/_inc/core/list-table.php:85
+#, php-format
+msgid "All %s"
+msgstr "Все %s"
+
+#: frl-mitest/_inc/core/list-table.php:86
+#, php-format
+msgid "With consultation %s"
+msgstr "С запросом консультации %s"
+
+#: frl-mitest/_inc/core/list-table.php:87
+#, php-format
+msgid "Without consultation %s"
+msgstr "Без запроса консультации %s"
+
+#: frl-mitest/_inc/core/list-table.php:146
+msgid "Date"
+msgstr "Дата"
+
+#: frl-mitest/_inc/core/list-table.php:147
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: frl-mitest/_inc/core/list-table.php:148
+#: frl-mitest/_inc/core/shortcodes.php:163
+msgid "Score"
+msgstr "Балл"
+
+#: frl-mitest/_inc/core/list-table.php:149
+msgid "Profile"
+msgstr "Профиль"
+
+#: frl-mitest/_inc/core/list-table.php:150
+#: frl-mitest/_inc/templates/profile.php:150
+msgid "Consultation"
+msgstr "Консультация"
+
+#: frl-mitest/_inc/core/list-table.php:242
+msgid "View response profile"
+msgstr "Просмотр профиля ответов"
+
+#: frl-mitest/_inc/core/list-table.php:252
+msgid "No request for consultation"
+msgstr "Нет запроса"
+
+#: frl-mitest/_inc/core/list-table.php:254
+msgid "Request for consultation"
+msgstr "Запрос консультации"
+
+#: frl-mitest/_inc/core/list-table.php:259
+#: frl-mitest/_inc/templates/profile.php:158
+msgid "Contact data"
+msgstr "Контактные данные"
+
+#: frl-mitest/_inc/core/list-table.php:260
+#: frl-mitest/_inc/templates/profile.php:159
+#, php-format
+msgid "Name: %s"
+msgstr "Имя: %s"
+
+#: frl-mitest/_inc/core/list-table.php:260
+#: frl-mitest/_inc/templates/profile.php:159
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: frl-mitest/_inc/core/shortcodes.php:131
+msgid "Please, describe your case"
+msgstr "Пожалуйста, опишите вашу ситуацию"
+
+#: frl-mitest/_inc/core/shortcodes.php:155
+msgid "Question's Option"
+msgstr "Параметры варианта ответа"
+
+#: frl-mitest/_inc/core/shortcodes.php:158
+msgid "Ordered number"
+msgstr "Порядковый номер"
+
+#: frl-mitest/_inc/core/shortcodes.php:165
+msgid "Score to be assigned with the option"
+msgstr "Балл, присваиваемый за выбранный ответ"
+
+#: frl-mitest/_inc/core/shortcodes.php:169
+msgid "Comment's field"
+msgstr "Поле комментария"
+
+#: frl-mitest/_inc/core/shortcodes.php:171
+msgid "No"
+msgstr "Нет"
+
+#: frl-mitest/_inc/core/shortcodes.php:172
+msgid "Yes"
+msgstr "Да"
+
+#: frl-mitest/_inc/core/shortcodes.php:174
+msgid "Presence of additional field for comment"
+msgstr "Наличие дополнительного поля для пользовательского комментария"
+
+#: frl-mitest/_inc/core/shortcodes.php:232
+msgid "Interval of scale options"
+msgstr "Параметры интервала"
+
+#: frl-mitest/_inc/core/shortcodes.php:235
+msgid "Bottom value"
+msgstr "Нижний предел"
+
+#: frl-mitest/_inc/core/shortcodes.php:237
+msgid "Bottom level of the interval"
+msgstr "Нижняя граница интервала (число)"
+
+#: frl-mitest/_inc/core/shortcodes.php:241
+msgid "Top value"
+msgstr "Верхний предел"
+
+#: frl-mitest/_inc/core/shortcodes.php:243
+msgid "Top level of the interval"
+msgstr "Верхняя граница интервала (число)"
+
+#: frl-mitest/_inc/core/shortcodes.php:266
+#: frl-mitest/_inc/templates/module.php:120
+msgid "Start testing"
+msgstr "Начать тестирование"
+
+#: frl-mitest/_inc/core/shortcodes.php:315
+msgid "Scale options"
+msgstr "Настройки шкалы"
+
+#: frl-mitest/_inc/core/shortcodes.php:318
+msgid "Interval grades"
+msgstr "Границы интервала"
+
+#: frl-mitest/_inc/core/shortcodes.php:320
+msgid ""
+"Comma-separated list of numbers representing scale intervals. The starting "
+"\"0\" should be omitted"
+msgstr ""
+"Список разделенных запятыми чисел, представляющих последовательные границы "
+"интервалов. Начальный \"0\" можно пропустить"
+
+#: frl-mitest/_inc/core/shortcodes.php:352
+msgid "Test's shortcodes"
+msgstr "Коды тестов"
+
+#: frl-mitest/_inc/templates/module.php:72
+msgid "Progress"
+msgstr "Прогресс"
+
+#: frl-mitest/_inc/templates/module.php:77
+#: frl-mitest/_inc/templates/module.php:189
+msgid "Test score"
+msgstr "Набранный балл"
+
+#: frl-mitest/_inc/templates/module.php:93
+msgid ""
+"To be able perform testing, please enable JavaScript in your browser "
+"settings and refresh the page. Thank you!"
+msgstr ""
+"Для прохождения теста, пожалуйста, разрешите поддержку JavaScript в "
+"настройках вашего браузера и обновите страницу. Спасибо за понимание!"
+
+#: frl-mitest/_inc/templates/module.php:101
+msgid "The initial information"
+msgstr "Вводная информация"
+
+#: frl-mitest/_inc/templates/module.php:108
+msgid "Please specify the URL of your website"
+msgstr "Пожалуйста, укажите URL вашего сайта"
+
+#: frl-mitest/_inc/templates/module.php:110
+msgid "Please specify the URL of your website to start"
+msgstr "Пожалуйста, укажите URL вашего сайта чтобы начать тест"
+
+#: frl-mitest/_inc/templates/module.php:140
+msgid "Please choose at least one of the provided options"
+msgstr "Пожалуйста, выберите вариант ответа"
+
+#: frl-mitest/_inc/templates/module.php:147
+msgid "Ready"
+msgstr "Готово"
+
+#: frl-mitest/_inc/templates/module.php:152
+#: frl-mitest/_inc/templates/profile.php:228
+msgid "Why is it important"
+msgstr "Почему это важно"
+
+#: frl-mitest/_inc/templates/module.php:159
+#: frl-mitest/_inc/templates/profile.php:235
+msgid "Relevant materials"
+msgstr "Материалы по теме"
+
+#: frl-mitest/_inc/templates/module.php:165
+msgid "Go further"
+msgstr "Далее"
+
+#: frl-mitest/_inc/templates/module.php:165
+msgid "Get results"
+msgstr "Получить результаты"
+
+#: frl-mitest/_inc/templates/module.php:184
+msgid "Test is finished"
+msgstr "Тест завершен"
+
+#: frl-mitest/_inc/templates/module.php:198
+msgid "Now you can do"
+msgstr "Теперь вы можете"
+
+#: frl-mitest/_inc/templates/module.php:203
+msgid "Send a comment for test's authors"
+msgstr "Отправить комментарий авторам теста"
+
+#: frl-mitest/_inc/templates/module.php:207
+msgid ""
+"Please tell us what you think about the test. Has it been useful for you? Do "
+"you agree with results?"
+msgstr ""
+"Пожалуйста, расскажите, чтобы вы думаете о тесте. Был ли он для вас полезен? "
+"Согласны ли вы с полученным результатом?"
+
+#: frl-mitest/_inc/templates/module.php:216
+msgid "Ask for consultation"
+msgstr "Получить консультацию специалиста"
+
+#: frl-mitest/_inc/templates/module.php:219
+msgid ""
+"Please provide your contact information and our spesialists will handle the "
+"details"
+msgstr ""
+"Пожалуйста, укажите ваши контактные данные и наш представитель свяжется с "
+"вами в ближайшее время"
+
+#: frl-mitest/_inc/templates/module.php:221
+msgid "Your name"
+msgstr "Ф.И.О."
+
+#: frl-mitest/_inc/templates/module.php:222
+msgid "Please specify the name of the contact person"
+msgstr "Пожалуйста, укажите имя контактного лица"
+
+#: frl-mitest/_inc/templates/module.php:223
+#: frl-mitest/_inc/templates/module.php:237
+msgid "your@email.com"
+msgstr "ваш@ email.ru"
+
+#: frl-mitest/_inc/templates/module.php:224
+#: frl-mitest/_inc/templates/module.php:238
+msgid "Please specify the correct email address"
+msgstr "Пожалуйста, укажите корректный email для связи"
+
+#: frl-mitest/_inc/templates/module.php:232
+msgid "Send results by email"
+msgstr "Отправить результаты по email"
+
+#: frl-mitest/_inc/templates/module.php:235
+msgid "Please specify the email address where the test results will be send"
+msgstr ""
+"Пожалуйста укажите email-адрес на который вам будут высланы результаты с "
+"комментариями"
+
+#: frl-mitest/_inc/templates/module.php:246
+msgid "Your data submit successfully. Thank you for using this test!"
+msgstr "Ваши данные успешно отправлены. Спасибо за использование нашего теста!"
+
+#: frl-mitest/_inc/templates/module.php:247
+msgid ""
+"There was an error during submitting your data. Please contacts us for "
+"details."
+msgstr ""
+"Во время отправки данных произошла ошибка. Пожалуйста, свяжитесь с нами для "
+"получения дополнительной информации."
+
+#: frl-mitest/_inc/templates/module.php:250
+msgid "Submit"
+msgstr "Отправить"
+
+#: frl-mitest/_inc/templates/module.php:268
+msgid ""
+"It seems that you've already tried to make this test. Would you like to "
+"populate your results?"
+msgstr ""
+"Похоже, вы уже начинали проходить этот тест. Хотите, использовать ваши "
+"прежние ответы?"
+
+#: frl-mitest/_inc/templates/module.php:270
+msgid "Yes, show my data restored"
+msgstr "Да, восстановите мои ответы"
+
+#: frl-mitest/_inc/templates/module.php:271
+msgid "No, show blank canvas"
+msgstr "Нет, я начну сначала"
+
+#: frl-mitest/_inc/templates/module.php:277
+msgid ""
+"It seems that you're not satisfied with the scores? Please, be sure that "
+"your answers represent the real situation on your site. Otherwise you may "
+"get a wrong results at the end."
+msgstr ""
+"Похоже, вы не удовлетворены полученным баллом? Пожалуйста, исправьте ваш "
+"ответ, только если это действительно необходимо. Ваш ответ должен отражать "
+"реальную ситуацию на вашем сайте, в противном случае вы можете получить "
+"некорректные результаты теста. "
+
+#: frl-mitest/_inc/templates/profile.php:32
+msgid "Incorrect profile data"
+msgstr "Некорректные данные профиля"
+
+#: frl-mitest/_inc/templates/profile.php:127
+msgid "Testing results"
+msgstr "Результаты тестирования"
+
+#: frl-mitest/_inc/templates/profile.php:139
+msgid "Testing site"
+msgstr "Тестируемый сайт"
+
+#: frl-mitest/_inc/templates/profile.php:143
+msgid "Total Score"
+msgstr "Набранный балл"
+
+#: frl-mitest/_inc/templates/profile.php:154
+msgid "The consultation has not been requested"
+msgstr "Консультация не запрашивалась"
+
+#: frl-mitest/_inc/templates/profile.php:157
+msgid "The consultation has been requested"
+msgstr "Консультация запрашивалась"
+
+#: frl-mitest/_inc/templates/profile.php:165
+msgid "Comment on test"
+msgstr "Комментарий к тесту"
+
+#: frl-mitest/_inc/templates/profile.php:173
+msgid "Module Preview"
+msgstr "Просмотр модуля"
+
+#: frl-mitest/_inc/templates/profile.php:178
+msgid "Title"
+msgstr "Заголовок"
+
+#: frl-mitest/_inc/templates/profile.php:182
+msgid "Short description"
+msgstr "Краткое описание"
+
+#: frl-mitest/_inc/templates/profile.php:186
+msgid "Full description"
+msgstr "Полное описание"
+
+#: frl-mitest/_inc/templates/profile.php:191
+msgid "Intervals"
+msgstr "Шкала результатов"
+
+#: frl-mitest/_inc/templates/profile.php:208
+msgid "Profile's replys"
+msgstr "Профиль ответов"
+
+#~ msgid "ONWAM test submission"
+#~ msgstr "Отправка теста ONWAM"
+
+#~ msgid "Consultancy"
+#~ msgstr "Консультация"
+
+#~ msgid "Tests"
+#~ msgstr "Тесты"

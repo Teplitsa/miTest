@@ -1,0 +1,233 @@
+/**
+ * Styles for admin UI
+ **/
+
+fieldset {
+	display: block; }
+
+.field {
+	margin: 1.5em 0; }
+
+#frl-options-form .field label {
+	font-weight: bold;
+	color: #333; }
+
+.field.textarea label {
+    display: block;
+    padding-bottom: 4px; }
+    
+.field.textarea textarea,
+.field.textarea #excerpt {
+    -webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;   
+	box-sizing: border-box;   
+    width: 100%; }
+	
+legend {    
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 1em; }
+
+.field .help {
+    display: block;
+    font-style: italic;
+    color: #919191;    
+    padding: 4px 2px 2px; }
+
+.field .help p {
+	margin: 0; }
+
+label.checkbox {
+	background: transparent; }
+	
+.form-field input[type='checkbox'] {
+	width: auto; }
+
+
+/**
+ * Options page
+ **/
+
+.question_page_frl_mitest_options .menu-tabs {
+	margin: 3em 0;
+	border-bottom: 1px solid #dfdfdf; }
+	
+.frl-frame-form {
+	margin: 0 0 3em 1.5em; }
+
+.header-wrapper {
+	margin: 9px 0 0; }
+
+#header-holder {
+	margin-top: 18px;
+	max-width: 870px; }
+
+#header-holder  img {
+	text-align: left;
+	max-width: 100%;
+	height: auto; }
+
+#remove-header-image,
+#remove-header-image:visited {
+	display: none;
+	margin-left: 9px;
+	color: #FF0000;
+	padding: 1px; }
+
+#remove-header-image:hover {
+	background: #ff0000;
+	color: #fff; }
+	
+.has-image #remove-header-image {
+	display: inline-block; }
+
+#mitest-help {
+	max-width: 760px;
+	margin: 0 0 3em; }
+	
+#mitest-help .frame-holder {	
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 80%; }
+
+#mitest-help iframe {
+	border: 1px solid #DDDDDD;
+    height: 100%;
+    position: absolute;
+    width: 100%; }
+
+#mitest-help .frame-file {
+	text-align: right;
+	padding-bottom: 6px; }
+
+#mitest-help .frame-file a {
+	text-decoration: none; }
+	
+	
+/**
+ * Question UI
+ **/
+
+#questiondata .wlimit {
+	display: inline-block;
+	width: 80px; }
+
+#questiondata option {
+	min-width: 200px;
+	padding: 2px; }
+
+#questiondata #menu_order {
+	margin-right: 8px; }
+	
+#questiondata .text .help {
+	display: inline-block; }
+	
+
+/* shortcode modal */
+.frl_shortcodes option{
+	padding: 2px;
+	min-width: 100px; }
+
+div.frl-shortcode-modal {
+	display: none; }
+
+.frl-shortcode-modal form {
+	padding: 0 22px;
+	font-size: 12px; }
+
+.frl-shortcode-modal form h5 {
+	font-size: 12px; }
+	
+.frl-shortcode-modal label {
+	display: block;
+	font-weight: bold;
+	padding: 0 0 3px; }
+
+.frl-shortcode-modal input[type="text"] {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;   
+	box-sizing: border-box;   
+    width: 100%;
+	padding: 4px 3px;
+	font-weight: normal;
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #fff; }
+
+.frl-shortcode-modal input[type="text"]:focus {
+	border-color: #aaa;
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
+
+.frl-shortcode-modal fieldset {
+	margin: 1em 0;
+	font-size: 11px; }
+
+.frl-shortcode-modal fieldset .help {
+	margin-bottom: 0;
+	font-size: 11px; }
+
+.frl-shortcode-modal .complimentary {
+	margin-top: 1em; }
+	
+/* table columns */
+.edit-question .wp-list-table .column-menu_order {
+	width: 12%; }
+
+.edit-question .wp-list-table .column-id {
+	width: 5%; }
+
+.edit-question .wp-list-table .column-date {
+	width: 12%; }
+
+.question_page_frl_mitest_submissions .wp-list-table .column-id {
+	width: 5%; }
+
+.question_page_frl_mitest_submissions .wp-list-table .column-date,
+.question_page_frl_mitest_submissions .wp-list-table .column-score {
+	width: 8%;
+}
+
+
+/* menu order iline */
+.wp-list-table .column-menu_order .index-inline {
+    text-align: center;
+    cursor: pointer; }
+
+.index-inline-edit  { display: none; }
+.index-inline-edit input[type=text] { width: 50px;}
+.index-inline-edit input[type=text].load {
+    background: #fff url(../img/wpspin_light.gif) no-repeat right center; }
+    
+.index-inline-edit input[type=button] {
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 24px;
+    padding: 2px 1px;
+    background: #F6F6F6;
+	border: 1px solid #BBBBBB;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; }
+	
+
+/**
+ * Module UI
+ **/
+
+.form-field .quicktags-toolbar input {
+	width: auto !important; }
+
+.form-field .wp-editor-container textarea {
+	border: none; }
+
+.edit-module .wp-media-buttons .insert-media {
+	display: none; }
+
+.edit-module td .wp-editor-wrap {
+	width: 95%; }
