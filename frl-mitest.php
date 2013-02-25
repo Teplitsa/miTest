@@ -1,12 +1,15 @@
 <?php
 /*
-Plugin Name: FRL MItest
+Plugin Name: miTest
 Version: 1.0.0
 Author: Anna Ladoshkina
 Description: Interactive test in accordance with ONWAM methodology
 Author URI: http://www.foralien.com
 Text Domain: frl-mitest
 Domain Path: /_inc/lang
+Copyright (C) 2013 by Teplitsa of Social Technologies (te-st.ru)
+License: GNU Public License v2 or later
+licenseURL: http://opensource.org/licenses/gpl-2.0.php 
 */ 
 
 define('FRL_MITEST_VERSION', '1.0.0');
