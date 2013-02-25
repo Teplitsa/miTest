@@ -7,8 +7,6 @@ Description: Interactive test in accordance with ONWAM methodology
 Author URI: http://www.foralien.com
 Text Domain: frl-mitest
 Domain Path: /_inc/lang
-copyright Copyright (C) 2013 by Teplitsa of Social Technologies (te-st.ru).
-license http://opensource.org/licenses/gpl-2.0.php GNU Public License v2 or later
 */ 
 
 define('FRL_MITEST_VERSION', '1.0.0');
@@ -18,14 +16,24 @@ define('FRL_MITEST_VERSION', '1.0.0');
  * Paths
  * 
  **/
+function frl_mitest_detect_folder() {
+	
+	$folder = dirname(__FILE__); 
+	$bp = WP_PLUGIN_DIR;
+	
+	return trim(str_replace($bp, '', $folder), '/');	
+}
+
 function frl_mitest_plugin_dir(){
 	
-	return WP_PLUGIN_DIR . '/frl-mitest';
+	$folder = frl_mitest_detect_folder();
+	return WP_PLUGIN_DIR . '/'.$folder;
 }
 
 function frl_mitest_plugin_url() {
 	
-	return WP_PLUGIN_URL . '/frl-mitest';
+	$folder = frl_mitest_detect_folder();
+	return WP_PLUGIN_URL . '/'.$folder;
 }
 
 
